@@ -4,6 +4,7 @@
         //They can be declared in on class and call functions defined on another classes
         //Func is a delegate that receives two input parameters and one output : Func<input1, input2, output>
         //Action is a delegate that can receives up to 16 input parameters but return allways void
+
         public delegate string DelegatesGretings(string gretingFirstName, string gretingLastName, int gretingAge);
 
         public string Gretings(DelegatesGretings gretings, Person person)
